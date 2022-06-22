@@ -69,3 +69,9 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
     ```
     npm i phosphor-react
     ```
+
+6. Biblioteca de datas com Javascript:
+
+    ```
+    npm i date-fns
+    ```
