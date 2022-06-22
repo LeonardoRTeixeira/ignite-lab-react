@@ -20,16 +20,28 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 - [Autoprefixer](https://github.com/postcss/autoprefixer)
 - [ApolloClient](https://www.apollographql.com/)
 - [Graphql](https://graphql.org/)
+- [Phosphor Icons](https://phosphoricons.com/)
 - [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating) para gerenciamento da versão do NodeJS;
 
 
-### Iniciar o projeto:
+### Configuração inicial desse projeto:
 
-Esse projeto foi estruturado e iniciado usando o [ViteJS](https://vitejs.dev/)
+1. Esse projeto foi estruturado e iniciado usando o [ViteJS](https://vitejs.dev/)
 
-```
-npm create vite@latest
-```
+    ```
+    npm create vite@latest
+    ```
+
+2. Alterar arquivo `tailwindcss.config.js` para informar quais arquivos sejam reconhecidos e tenham os estilos compilados pelo Tailwind:
+
+    ```
+    ...
+    content: [
+        './src/**/*.tsx',
+    ],
+    ...
+    ```
+    No caso acima, todos os arquivos `.tsx`.
 
 
 ### Dependências: 
@@ -46,19 +58,14 @@ npm create vite@latest
     npx tailwindcss init -p
     ```
 
-3. Alterar arquivo `tailwindcss.config.js` para informar quais arquivos sejam reconhecidos e tenham os estilos compilados pelo Tailwind:
-
-    ```
-    ...
-    content: [
-        './src/**/*.tsx',
-    ],
-    ...
-    ```
-    No caso acima, todos os arquivos `.tsx`.
-
 4. Instalar as dependências do ApolloClient e Graphql:
 
     ```
     npm i @apollo/client graphql
+    ```
+
+5. Biblioteca de ícones Phosphor:
+
+    ```
+    npm i phosphor-react
     ```
