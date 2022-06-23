@@ -77,7 +77,7 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
     npm i date-fns
     ```
 
-6. Biblioteca de player de vídeo em Javascript:
+6. Biblioteca de player de vídeo:
 
     ```
     npm i @vime/core @vime/react --force
@@ -85,4 +85,10 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 
     - Nesse momento o VimeJS não suporta uma das features do React 18, o [Streaming Server-side Rendering (SSR)](https://nextjs.org/docs/advanced-features/react-18/streaming) e com isso não permite a instalação normal;
 
-    - Portanto, deve-se utilizar o `--force` na instalação da biblioteca para conseguir instalar e começar a usar; 
+    - Portanto, deve-se utilizar o `--force` na instalação da biblioteca para conseguir instalar e começar a usar;
+
+7. Biblioteca de roteamento de endereços URL:
+
+    ```
+    npm i react-router-dom
+    ```
