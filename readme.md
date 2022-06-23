@@ -9,7 +9,7 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 - Consiste em implementar uma interface web de video-aulas, utilizando um Headless CMS (nesse projeto, o GraphCMS); 
 - Estruturação inicial do projeto foi feita com [Vite](https://vitejs.dev/);
 - Estilização foi baseada no [TailwindCSS](https://tailwindcss.com/);
-- Consumo de dados em GraphQL via [GraphCMS](https://graphcms.com/);
+- Consumo de dados em GraphQL via [GraphCMS](https://graphcms.com/) para carregar nas páginas;
 
 
 ### Utilitários nesse projeto:
@@ -21,6 +21,7 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 - [ApolloClient](https://www.apollographql.com/)
 - [Graphql](https://graphql.org/)
 - [Phosphor Icons](https://phosphoricons.com/)
+- [VimeJS](https://vimejs.com/)
 - [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating) para gerenciamento da versão do NodeJS;
 
 
@@ -58,20 +59,30 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
     npx tailwindcss init -p
     ```
 
-4. Instalar as dependências do ApolloClient e Graphql:
+3. Instalar as dependências do ApolloClient e Graphql:
 
     ```
     npm i @apollo/client graphql
     ```
 
-5. Biblioteca de ícones Phosphor:
+4. Biblioteca de ícones Phosphor:
 
     ```
     npm i phosphor-react
     ```
 
-6. Biblioteca de datas com Javascript:
+5. Biblioteca de datas com Javascript:
 
     ```
     npm i date-fns
     ```
+
+6. Biblioteca de player de vídeo em Javascript:
+
+    ```
+    npm i @vime/core @vime/react --force
+    ```
+
+    - Nesse momento o VimeJS não suporta uma das features do React 18, o [Streaming Server-side Rendering (SSR)](https://nextjs.org/docs/advanced-features/react-18/streaming) e com isso não permite a instalação normal;
+
+    - Portanto, deve-se utilizar o `--force` na instalação da biblioteca para conseguir instalar e começar a usar; 
