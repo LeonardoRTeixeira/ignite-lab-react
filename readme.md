@@ -92,3 +92,16 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
     ```
     npm i react-router-dom
     ```
+
+8. Biblioteca de auxílio à estilização condicional no CSS:
+
+    ```
+    npm i classnames
+    ```
+
+    - A exemplo: uma classe precisar ser aplicada quando determinado valor for satisfeito
+
+### Variáveis de ambiente:
+
+1. VITE_API_URL => URL da API do GraphCMS
+2. VITE_API_ACCESS_TOKEN => Access Token da API do GraphCMS
