@@ -22,6 +22,7 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 - [Graphql](https://graphql.org/)
 - [Phosphor Icons](https://phosphoricons.com/)
 - [VimeJS](https://vimejs.com/)
+- [GraphQL Code Generator](https://www.graphql-code-generator.com/)
 - [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating) para gerenciamento da versão do NodeJS;
 
 
@@ -100,6 +101,22 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
     ```
 
     - A exemplo: uma classe precisar ser aplicada quando determinado valor for satisfeito
+
+9. GraphQL Code Generator: plugin de manipulação e tipificação 'nativa' com GraphQL dentro do ReactJS:
+
+    ```
+    npm i @graphql-codegen/cli
+    npm i @graphql-codegen/typescript 
+    npm i @graphql-codegen/typescript-operations 
+    npm i @graphql-codegen/typescript-react-apollo -D
+    ```
+
+    - Através desse plugin não será mais necessário tipar todas as estruturas de retorno (response) das consultas (query) em GraphQL;
+    - Como este projeto utiliza Apollo Client, basta utilizar o plugin para [Apollo and URQL](https://www.graphql-code-generator.com/docs/guides/react#apollo-and-urql);
+    - Toda configuração do plugin está contida no arquivo codegen.yml;
+
+
+
 
 ### Variáveis de ambiente:
 

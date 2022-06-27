@@ -4,34 +4,6 @@ import { CaretRight, DiscordLogo, FileArrowDown, ImageSquare, Lightning } from "
 
 import '@vime/core/themes/default.css';
 
-const GET_LESSON_BY_SLUG_QUERY = gql`
-  query GetLessonBySlug ($slug: String) {
-    lesson(where: {slug: $slug}) {
-      title
-      videoId
-      description
-      teacher {
-        bio
-        name
-        avatarURL
-      }
-    }
-  }
-`
-
-interface GetLessonBySlugResponse {
-  lesson: {
-    videoId: string;
-    title: string;
-    description: string;
-    teacher: {
-      bio: string;
-      name: string;
-      avatarURL: string;
-    }
-  }
-}
-
 interface VideoProps {
   lessonSlug: string;
 }
