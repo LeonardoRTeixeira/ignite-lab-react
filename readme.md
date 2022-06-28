@@ -10,7 +10,7 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 - Estruturação inicial do projeto foi feita com [Vite](https://vitejs.dev/);
 - Estilização foi baseada no [TailwindCSS](https://tailwindcss.com/);
 - Consumo de dados em GraphQL via [GraphCMS](https://graphcms.com/) para carregar nas páginas;
-- Hospedar o projeto na [Vercel](https://vercel.com/) integrado com a conta e repositório do GitHub;
+- Hospedar o projeto na [Vercel](https://vercel.com/) integrado com a conta e repositório desse projeto no GitHub;
 
 
 ### Utilitários nesse projeto:
