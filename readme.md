@@ -116,9 +116,13 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
     - Toda configuração do plugin está contida no arquivo codegen.yml;
 
 
-
-
 ### Variáveis de ambiente:
 
 1. VITE_API_URL => URL da API do GraphCMS
 2. VITE_API_ACCESS_TOKEN => Access Token da API do GraphCMS
+
+
+### Prints
+![Homepage](./prints/subscribe-homepage.png)
+
+![Event page](./prints/event-page.png)
