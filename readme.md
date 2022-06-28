@@ -7,6 +7,7 @@ Desenvolvimento de um pequeno projeto com base nas aulas da semana de especializ
 ### O projeto: 
 
 - Consiste em implementar uma interface web de video-aulas, utilizando um Headless CMS (nesse projeto, o GraphCMS); 
+- Seguir o [Mockup no Figma](https://www.figma.com/file/jsw3tajCOegJOxVP8KwuyN/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=0%3A1) proposto no evento;
 - Estruturação inicial do projeto foi feita com [Vite](https://vitejs.dev/);
 - Estilização foi baseada no [TailwindCSS](https://tailwindcss.com/);
 - Consumo de dados em GraphQL via [GraphCMS](https://graphcms.com/) para carregar nas páginas;
